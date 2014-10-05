@@ -7,7 +7,7 @@
 #fondo{
 	height: 8109px;
 	width: 100%;
-	background-image:url(images/Fondo_piedras.png);
+	background-image:url(../images/Fondo_piedras.png);
 	background-attachment: scroll;
 	background-repeat:repeat;
 }
@@ -16,7 +16,7 @@
 	height: 8030px;
 	width: 1300px;
 	background-color:rgba(0,0,0,0.7);
-	/*background-image: url(images/SFfondo-03.png);*/
+	/*background-image: url(../images/SFfondo-03.png);*/
 	opacity:60%;
 	background-attachment: scroll;
 	background-repeat: repeat;

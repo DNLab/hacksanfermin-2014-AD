@@ -5,7 +5,7 @@
 <title>Antes y después de San Fermín</title>
 <link href="css/estilos.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
-<link href="css/jquery.webbox.1.0.1.min.css" rel="stylesheet" />
+<link href="css/jquery.webbox.1.0.1.css" rel="stylesheet" />
 <!-----------------------NO TOCAR----------------------->
 <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
 <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
@@ -131,8 +131,8 @@ Las tradicionales fiestas del copatrón de Navarra se componen de diversas estam
     <div id="map"><h2>Geolocalización de algunos momentos de la fiesta</h2>
     </div>
 <!--------------------------------------FIRMA--------------------------------------------->
-  	  <div id="pie">Equipo DN LAB: Ramaris Albert, Yulen Garmendia, Isla Cruañes y Olaia Nantes. Contando con la colaboración de Rafa Soriazu
-    <br />Licencia CC-sa
+  	  <div id="pie">Equipo DN LAB: Ramaris Albert, Yulen Garmendia, Isla Cruañes, Olaia Nantes y Alberto Labarga. Con la colaboración de Rafa Soriazu.
+    <br />Licencia CC-SA
     </div>
 
 </div>
@@ -141,16 +141,16 @@ Las tradicionales fiestas del copatrón de Navarra se componen de diversas estam
 
 <!--------------------------------------NO TOCAR------------------------------------------->
 
-     <script>
-	  // get the viz.json url from the CartoDB UI
-	  // - click on visualize
-	  // - create new visualization
-	  // - make visualization public
-	  // - click on publish
-	  // - go to API tab
-	  window.onload = function() {
-		cartodb.createVis('map', 'http://ramaris.cartodb.com/api/v2/viz/9a5b0d54-f3ed-11e3-816d-0e230854a1cb/viz.json');
-		$('.fotos').webbox();
-	  }
-	</script>
+<script>
+  // get the viz.json url from the CartoDB UI
+  // - click on visualize
+  // - create new visualization
+  // - make visualization public
+  // - click on publish
+  // - go to API tab
+  window.onload = function() {
+	cartodb.createVis('map', 'http://ramaris.cartodb.com/api/v2/viz/9a5b0d54-f3ed-11e3-816d-0e230854a1cb/viz.json');
+	$('.fotos').webbox();
+  }
+</script>
 </html>
